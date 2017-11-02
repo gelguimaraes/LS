@@ -6,10 +6,11 @@ module.exports =  class Order {
 	  this.item = new Object()
 	  this.item.quantity = 0	 
 	  this.item.product = {}
-	 /* this.item.total = function(){
-		return this.item.quantity
-		}*/
+	  this.item.total = function(){
+		return this.quantity
+	  }
 	}	
+	
 	
 	
   addProduct(p){
@@ -18,7 +19,7 @@ module.exports =  class Order {
 		this.item.quantity = 1
 		this.item.product = p
 		this.items.push(this.item)	
-		//console.log(this.item)
+	
 	}
 	else{
 		for (let value of this.items){
@@ -31,12 +32,16 @@ module.exports =  class Order {
 				isItem = false	
 		}
 		 if(!isItem){
+			 	this.item = new Object() 
 				this.item.quantity = 1
 				this.item.product = p
+				this.item.total = function() {return this.quantity}
 				this.items.push(this.item)	
 		}	
 	}
-	this.item = new Object()  
+	//console.log(this.item)
+	 
+	
   }
     
 	
@@ -48,7 +53,7 @@ module.exports =  class Order {
 	}
 	
   total(cat){
-	  return this.getItems(cat).reduce((sum, p) => sum + (p.product.price * p.quantity), 0)
+	  return this.getItems(cat).reduce((sum, p) => sum + (p.product.price * p.total()), 0)
    }
    
    
@@ -57,7 +62,9 @@ module.exports =  class Order {
 		const spaceLeft = (a,b) => ('   ' + a).slice(-b)
 		const spaceRight = (a,b) => (a+'     ').slice(0, b)
 		let text   
-		text = this.getItems().map(l => l.product.id + " " + spaceRight(l.product.name, 9) + "  " + zeroLeft(l.quantity, 3) + " UN  " + spaceLeft(l.product.price.toFixed(2), 5) + "  " + spaceLeft((l.product.price * l.quantity).toFixed(2), 5) + (l.product.id < this.items.length ? "\n      " : ""))
+		text = this.getItems().map(l => l.product.id + " " + spaceRight(l.product.getNameCompac(), 9) + "  " + zeroLeft(l.total(), 3) + " UN  " + spaceLeft(l.product.price.toFixed(2), 5) + "  " + spaceLeft((l.product.price * l.total()).toFixed(2), 5) + (l.product.id < this.items.length ? "\n      " : ""))
+		
+		 //console.log(this.items.total())
 		
 		return text.join('') 
 	}
