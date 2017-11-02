@@ -63,10 +63,11 @@ module.exports =  class Order {
 		const spaceRight = (a,b) => (a+'     ').slice(0, b)
 		let text   
 		text = this.getItems().map(l => l.product.id + " " 
-								   + spaceRight(l.product.getNameCompac(), 9) 
-								   + "  " + zeroLeft(l.total(), 3) + " UN  " 
-								   + spaceLeft(l.product.price.toFixed(2), 5) 
-								   + "  " + spaceLeft((l.product.price * l.total()).toFixed(2), 5) + (l.product.id < this.items.length ? "\n      " : ""))
+		+ spaceRight(l.product.getNameCompac(), 9) 
+		+ "  " + zeroLeft(l.total(), 3) + " UN  " 
+		+ spaceLeft(l.product.price.toFixed(2), 5) 
+		+ "  " + spaceLeft((l.product.price * l.total()).toFixed(2), 5) 
+		+ (l.product.id < this.items.length ? "\n      " : ""))
 		
 		 //console.log(this.items.total())
 		
