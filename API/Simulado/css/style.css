@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+	padding: 0
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+.contentBody {
+	width: 800px;
+	padding: 30px 0;
+	margin: 10px auto;
+}
+
+.url-input{
+	width: 320px;
+    border: 1px solid #CCC;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+button{
+	font-size: 12px;
+	color: #FFF;
+	background-color: #007bff;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+}
+#boxInfoCompare{
+	margin-top: 40px;
+}
+#project, #community, #code {
+	display: flex;
+	padding: 15px 0px 20px;
+    border-bottom: 1px solid #DDD;
+}
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;;
+}
+h2 {
+	width: 200px;
+	font-size: 18px;
+	margin: 0;
+	font-weight: lighter;
+}
+
+
+
+#langbootstrap, #langfoundation-sites{
+	width: 250px;} 
+.content {
+	width: 300px;
+}
+
+
+.content p{
+	font-size: 13px;
+	margin:0}
+.content i {
+	margin-right: 5px;
+}
+.content .textPercent p {
+	display:inline-block;
+}
+
+.content .textPercent p:nth-child(2) span{
+	font-weight:bold;
+}
