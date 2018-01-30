@@ -9,6 +9,7 @@ class IpTables {
 		if (this.hasAddress(address)) {
 			warningField.innerHTML = warningMessage
 		} else {
+			warningField.innerHTML =''
 			this.addresses.push(address)
 			this.addRow(address)
 		}
@@ -105,10 +106,7 @@ class IpTables {
 		//console.log(newjson);
 		this.addresses = this.addresses.map(function(addressSelected){
 			if(addressSelected.ip == ip){
-				addressSelected.ip = newjson.ip;
-				addressSelected.mask = newjson.mask;	
-				addressSelected.version = newjson.version;		
-				//console.log(addressSelected);
+				addressSelected = newjson;
 			}
 			return addressSelected;
 			
