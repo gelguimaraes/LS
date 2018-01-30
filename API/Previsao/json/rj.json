@@ -1,0 +1,138 @@
+{
+	"query": {
+		"count": 1,
+		"created": "2018-01-26T01:03:10Z",
+		"lang": "pt-BR",
+		"results": {
+			"channel": {
+				"units": {
+					"distance": "mi",
+					"pressure": "in",
+					"speed": "mph",
+					"temperature": "F"
+				},
+				"title": "Yahoo! Weather - Rio de Janeiro, RJ, BR",
+				"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455825/",
+				"description": "Yahoo! Weather for Rio de Janeiro, RJ, BR",
+				"language": "en-us",
+				"lastBuildDate": "Thu, 25 Jan 2018 11:03 PM BRST",
+				"ttl": "60",
+				"location": {
+					"city": "Rio de Janeiro",
+					"country": "Brazil",
+					"region": " RJ"
+				},
+				"wind": {
+					"chill": "79",
+					"direction": "270",
+					"speed": "7"
+				},
+				"atmosphere": {
+					"humidity": "85",
+					"pressure": "1006.0",
+					"rising": "0",
+					"visibility": "16.1"
+				},
+				"astronomy": {
+					"sunrise": "6:28 am",
+					"sunset": "7:42 pm"
+				},
+				"image": {
+					"title": "Yahoo! Weather",
+					"width": "142",
+					"height": "18",
+					"link": "http://weather.yahoo.com",
+					"url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+				},
+				"item": {
+					"title": "Conditions for Rio de Janeiro, RJ, BR at 09:00 PM BRST",
+					"lat": "-22.97673",
+					"long": "-43.19508",
+					"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455825/",
+					"pubDate": "Thu, 25 Jan 2018 09:00 PM BRST",
+					"condition": {
+						"code": "4",
+						"date": "Thu, 25 Jan 2018 09:00 PM BRST",
+						"temp": "79",
+						"text": "Thunderstorms"
+					},
+					"forecast": [{
+						"code": "4",
+						"date": "25 Jan 2018",
+						"day": "Thu",
+						"high": "82",
+						"low": "79",
+						"text": "Thunderstorms"
+					}, {
+						"code": "47",
+						"date": "26 Jan 2018",
+						"day": "Fri",
+						"high": "80",
+						"low": "78",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "47",
+						"date": "27 Jan 2018",
+						"day": "Sat",
+						"high": "79",
+						"low": "77",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "28",
+						"date": "28 Jan 2018",
+						"day": "Sun",
+						"high": "79",
+						"low": "77",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "4",
+						"date": "29 Jan 2018",
+						"day": "Mon",
+						"high": "85",
+						"low": "78",
+						"text": "Thunderstorms"
+					}, {
+						"code": "4",
+						"date": "30 Jan 2018",
+						"day": "Tue",
+						"high": "80",
+						"low": "76",
+						"text": "Thunderstorms"
+					}, {
+						"code": "12",
+						"date": "31 Jan 2018",
+						"day": "Wed",
+						"high": "78",
+						"low": "76",
+						"text": "Rain"
+					}, {
+						"code": "30",
+						"date": "01 Feb 2018",
+						"day": "Thu",
+						"high": "77",
+						"low": "76",
+						"text": "Partly Cloudy"
+					}, {
+						"code": "11",
+						"date": "02 Feb 2018",
+						"day": "Fri",
+						"high": "77",
+						"low": "73",
+						"text": "Showers"
+					}, {
+						"code": "11",
+						"date": "03 Feb 2018",
+						"day": "Sat",
+						"high": "77",
+						"low": "74",
+						"text": "Showers"
+					}],
+					"description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/4.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Thunderstorms\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Thu - Thunderstorms. High: 82Low: 79\n<BR /> Fri - Scattered Thunderstorms. High: 80Low: 78\n<BR /> Sat - Scattered Thunderstorms. High: 79Low: 77\n<BR /> Sun - Mostly Cloudy. High: 79Low: 77\n<BR /> Mon - Thunderstorms. High: 85Low: 78\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455825/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+					"guid": {
+						"isPermaLink": "false"
+					}
+				}
+			}
+		}
+	}
+}

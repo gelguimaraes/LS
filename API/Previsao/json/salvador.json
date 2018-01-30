@@ -1,0 +1,138 @@
+{
+	"query": {
+		"count": 1,
+		"created": "2018-01-30T01:14:32Z",
+		"lang": "pt-BR",
+		"results": {
+			"channel": {
+				"units": {
+					"distance": "mi",
+					"pressure": "in",
+					"speed": "mph",
+					"temperature": "F"
+				},
+				"title": "Yahoo! Weather - Salvador, BA, BR",
+				"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455826/",
+				"description": "Yahoo! Weather for Salvador, BA, BR",
+				"language": "en-us",
+				"lastBuildDate": "Mon, 29 Jan 2018 10:14 PM BRT",
+				"ttl": "60",
+				"location": {
+					"city": "Salvador",
+					"country": "Brazil",
+					"region": " BA"
+				},
+				"wind": {
+					"chill": "81",
+					"direction": "68",
+					"speed": "25"
+				},
+				"atmosphere": {
+					"humidity": "75",
+					"pressure": "1009.0",
+					"rising": "0",
+					"visibility": "16.1"
+				},
+				"astronomy": {
+					"sunrise": "5:26 am",
+					"sunset": "6:8 pm"
+				},
+				"image": {
+					"title": "Yahoo! Weather",
+					"width": "142",
+					"height": "18",
+					"link": "http://weather.yahoo.com",
+					"url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+				},
+				"item": {
+					"title": "Conditions for Salvador, BA, BR at 08:00 PM BRT",
+					"lat": "-12.97002",
+					"long": "-38.504559",
+					"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455826/",
+					"pubDate": "Mon, 29 Jan 2018 08:00 PM BRT",
+					"condition": {
+						"code": "23",
+						"date": "Mon, 29 Jan 2018 08:00 PM BRT",
+						"temp": "80",
+						"text": "Breezy"
+					},
+					"forecast": [{
+						"code": "34",
+						"date": "29 Jan 2018",
+						"day": "Mon",
+						"high": "81",
+						"low": "78",
+						"text": "Mostly Sunny"
+					}, {
+						"code": "47",
+						"date": "30 Jan 2018",
+						"day": "Tue",
+						"high": "81",
+						"low": "78",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "47",
+						"date": "31 Jan 2018",
+						"day": "Wed",
+						"high": "84",
+						"low": "78",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "4",
+						"date": "01 Feb 2018",
+						"day": "Thu",
+						"high": "83",
+						"low": "79",
+						"text": "Thunderstorms"
+					}, {
+						"code": "28",
+						"date": "02 Feb 2018",
+						"day": "Fri",
+						"high": "83",
+						"low": "79",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "26",
+						"date": "03 Feb 2018",
+						"day": "Sat",
+						"high": "83",
+						"low": "78",
+						"text": "Cloudy"
+					}, {
+						"code": "47",
+						"date": "04 Feb 2018",
+						"day": "Sun",
+						"high": "82",
+						"low": "79",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "28",
+						"date": "05 Feb 2018",
+						"day": "Mon",
+						"high": "82",
+						"low": "80",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "47",
+						"date": "06 Feb 2018",
+						"day": "Tue",
+						"high": "82",
+						"low": "79",
+						"text": "Scattered Thunderstorms"
+					}, {
+						"code": "28",
+						"date": "07 Feb 2018",
+						"day": "Wed",
+						"high": "82",
+						"low": "79",
+						"text": "Mostly Cloudy"
+					}],
+					"description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/23.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Breezy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Mon - Mostly Sunny. High: 81Low: 78\n<BR /> Tue - Scattered Thunderstorms. High: 81Low: 78\n<BR /> Wed - Scattered Thunderstorms. High: 84Low: 78\n<BR /> Thu - Thunderstorms. High: 83Low: 79\n<BR /> Fri - Mostly Cloudy. High: 83Low: 79\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-455826/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+					"guid": {
+						"isPermaLink": "false"
+					}
+				}
+			}
+		}
+	}
+}
