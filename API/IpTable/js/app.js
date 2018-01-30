@@ -9,9 +9,9 @@ class IpTables {
 		if (this.hasAddress(address)) {
 			warningField.innerHTML = warningMessage
 		} else {
-			warningField.innerHTML =''
-			this.addresses.push(address)
-			this.addRow(address)
+			warningField.innerHTML ="";
+			this.addresses.push(address);
+			this.addRow(address);
 		}
 	}
 
