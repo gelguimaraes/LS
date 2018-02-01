@@ -33,7 +33,7 @@ class IpTables {
 	
 
 
-		this.ipTableContent.insertAdjacentHTML('beforeend', row)
+		this.ipTableContent.insertAdjacentHTML('afterbegin', row)
 
 		const clearButton = document.querySelector(`tr[data-ip='${address.ip}'] .clear`)
 		const editButton = document.querySelector(`tr[data-ip='${address.ip}'] .edit`)
@@ -123,6 +123,9 @@ class IpTables {
 
 const button = document.querySelector('button')
 const formAddIp = document.querySelector('form#add-ip')
+const ip = document.querySelector("input[name='ip']")
+const mask = document.querySelector("input[name='mask']")
+const version = document.querySelector("input[name='version']")
 const ipTableContent = document.querySelector('table#iptable tbody')
 const warningField = document.querySelector('#warning')
 const warningMessage =
@@ -151,6 +154,9 @@ button.addEventListener('click', function (event) {
 	}
 
 	iptables.addAddress(address)
+	ip.value=""
+	mask.value=""
+	version.value=""
 
 	event.preventDefault()
 })
