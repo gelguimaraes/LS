@@ -68,6 +68,6 @@ h2 {
 	display:inline-block;
 }
 
-.content .textPercent p:nth-child(2) span{
+.content .textPercent p span{
 	font-weight:bold;
 }
